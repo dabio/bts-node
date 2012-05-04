@@ -1,0 +1,24 @@
+{
+    "name": "{{project}}",
+    "description": "{{description}}",
+    "author": "{{author}} <{{email}}>",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/dabio/express-template.git"
+    },
+    "dependencies": {
+        "express": "3"
+    },
+    "devDependencies": {
+        "mocha": "latest"
+    },
+    "main": "app",
+    "engines": {
+        "node": "0.6"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "private": true
+}
