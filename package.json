@@ -8,6 +8,7 @@
         "url": "git://github.com/dabio/express-template.git"
     },
     "dependencies": {
+        "pg": "latest",
         "express": "3"
     },
     "devDependencies": {
